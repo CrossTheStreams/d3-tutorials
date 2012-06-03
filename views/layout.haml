@@ -11,20 +11,30 @@
       %header.jumbotron 
         %h1 D3 Tutorials
       .row.show-grid
-        %ul
-          %li
-            %a{:href => "/"} Main
+        .span3
           %ul
             %li
-              %a{:href => "http://alignedleft.com/tutorials/d3/"} Scott Murray's D3 Tutorial
-            %ol
+              %a{:href => "/"} Main
+            %ul
               %li
-                %a{:href => "/murray/1"} Drawing Divs
-              %li
-                %a{:href => "/murray/2"} The Power of Data
-              %li
-                %a{:href => "/murray/3"} An SVG Primer
-      .row.show-grid
+                %a{:href => "http://alignedleft.com/tutorials/d3/"} Scott Murray's D3 Tutorial
+              %ol
+                %li
+                  %a{:href => "/murray/1"} Drawing Divs
+                %li
+                  %a{:href => "/murray/2"} The Power of Data
+                %li
+                  %a{:href => "/murray/3"} An SVG Primer
+                %li
+                  %a{:href => "/murray/4"} Drawing SVGs
+                %li
+                  %a{:href => "/murray/5"} Making a Bar Chart
+                %li
+                  %a{:href => "/murray/6"} Making a Scatterplot
+                %li 
+                  %a{:href => "/murray/7"} Scales
+                %li 
+                  %a{:href => "/murray/7"} Axes
         #box.span8
           = yield_content :box
 

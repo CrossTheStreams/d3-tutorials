@@ -7,12 +7,23 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges; }
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px; }
 
-#box {
+.example-text-style {
+  font-family: sans-serif;
+  font-size: 25px;
+  fill: gray; }
 
-  height: 500px;
-
-}
+.pumpkin {
+  fill: yellow;
+  stroke: orange;
+  stroke-width: 5; }
 
 div.bar {
   display: inline-block;
